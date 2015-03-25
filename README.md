@@ -25,6 +25,14 @@ An R script for quality control of microarray data, including:
     -   A = average log expression between the array and the median across
         arrays.
 
+-   Automatic download of NCBI Entrez Gene IDs and gene symbols matching all
+    probesets on the array, using Ensembl [Biomart].
+
+    -   The data from Biomart is saved in a gzipped CSV file.
+
+    -   Two [RMA] normalized expression matrices are saved in an RData file,
+        one at the probe-level and one at the gene-level.
+
 ## Installation
 
 Install the dependencies:
@@ -135,3 +143,5 @@ curve][loess] fit to this plot should follow the horizontal line at M = 0.
 [Cairo]: http://cran.r-project.org/web/packages/Cairo/index.html
 [Imagemagick]: http://www.imagemagick.org/
 [Homebrew]: http://brew.sh/
+[Biomart]: http://www.ensembl.org/biomart
+[RMA]: https://en.wikipedia.org/wiki/Microarray_analysis_techniques#Aggregation_and_normalization
