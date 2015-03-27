@@ -8,7 +8,7 @@
 
 Taking the cube-root enhances ability to notice linear trends in color
 intensity. It is already clear that the first batch of 30 arrays shows
-brighter intensity than the second batch of 30 arrays.
+lower intensity (deeper blue) than the second batch of 30 arrays.
 
 ![cuberoot of raw values](https://github.com/slowkow/arrayqc/blob/master/figures/rawData-images-cuberoot.jpg)
 
